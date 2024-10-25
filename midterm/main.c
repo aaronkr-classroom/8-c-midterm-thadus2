@@ -1,7 +1,9 @@
 #include "grade_funcs.h"
 #include <stdio.h>
+
 extern int max, min;
 int size;
+
 int main() {
 	int score[] = { 85, 70, 55, 90, 45, 60, 78, 88, 92, 49 };
 	size = sizeof(score) / sizeof(int);
